@@ -1,0 +1,79 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 100px;
+
+  border: 1px solid dodgerblue;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.controls {
+  display: flex;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  background-color: transparent;
+  border: none;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.closeIcon:hover {
+  color: rgb(13, 127, 241);
+}
+
+.input {
+  padding: 5px;
+  margin-bottom: 7px;
+
+  border-radius: 5px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: dodgerblue;
+
+  padding: 5px 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: rgb(13, 127, 241);
+}
+
+.form {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
